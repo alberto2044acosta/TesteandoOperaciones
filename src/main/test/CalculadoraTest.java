@@ -9,16 +9,19 @@ class CalculadoraTest {
         assertEquals(5, Calculadora.sumar(3, 2));
     }
 
+    //Este es un test que resta dos numeros
     @Test
     void testResta() {
         assertEquals(1, Calculadora.restar(3, 2));
     }
 
+    //Este es un test que multiplica dos numeros
     @Test
     void testMultiplicacion() {
         assertEquals(6, Calculadora.multiplicar(3, 2));
     }
 
+    //Este es un test que divide dos numeros
     @Test
     void testDivision() {
         assertEquals(2, Calculadora.dividir(8, 4));
