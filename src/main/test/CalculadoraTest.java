@@ -19,7 +19,7 @@ class CalculadoraTest {
     void testMultiplicacion() {
         assertEquals(6, Calculadora.multiplicar(3, 2));
     }
-    
+
     @Test
     void testDivision() {
         assertEquals(2, Calculadora.dividir(8, 4));

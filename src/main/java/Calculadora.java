@@ -30,6 +30,10 @@ public class Calculadora {
         System.out.println("Digite el segundo numero: ");
         numDos = scanner.nextInt();
 
+        for(int i = 0; i<10; i++){
+            System.out.println(i);
+        }
+
         System.out.println("El resultado de la suma es: " + sumar(numUno, numDos));
         System.out.println("El resultado de la resta es: " + restar(numUno, numDos));
         System.out.println("El resultado de la multiplicacion es: " + multiplicar(numUno, numDos));
