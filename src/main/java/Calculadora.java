@@ -34,6 +34,13 @@ public class Calculadora {
             System.out.println(i);
         }
 
+        int i = 0;
+
+        while(i<10) {
+            System.out.println(i);
+            i++;
+        }
+
         System.out.println("El resultado de la suma es: " + sumar(numUno, numDos));
         System.out.println("El resultado de la resta es: " + restar(numUno, numDos));
         System.out.println("El resultado de la multiplicacion es: " + multiplicar(numUno, numDos));
