@@ -3,6 +3,7 @@ import org.junit.jupiter.api.Test;
 
 class CalculadoraTest {
 
+    //Este es un test que suma dos numeros
     @Test
     void testSuma() {
         assertEquals(5, Calculadora.sumar(3, 2));
